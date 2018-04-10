@@ -1,3 +1,14 @@
+// takeANumber(line) => 'Welcome. You are ticket number #'
+var newNumber = 1
+function takeANumber(line){
+  line.push(newNumber)
+  return `Welcome. You are ticket number ${newNumber++}`
+  
+  
+}
+
+
+
 function takeANumber(line, name) {
   line.push(name);
   
